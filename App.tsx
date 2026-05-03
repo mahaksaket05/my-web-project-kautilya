@@ -68,7 +68,7 @@ import {
 import { db, auth, app } from './firebase';
 
 const storage = getStorage(app);
-import { cn } from './lib/utils';
+import { cn } from './utils';
 import { 
   BUSINESS_DETAILS, 
   COURSES, 
